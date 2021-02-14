@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css" />
+        <title>
+            My Super Dope Budget App
+        </title>
+    </head>
+
+    <body>
+        <main>
+
+            <section id="monthly_budget_section">
+                <h1>
+                    Monthly Budget
+                </h1>
+                <p id="monthly_budget">
+
+                </p>
+                <form>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" id="income_input" placeholder="Monthly income" />
+                        <span class="input-group-text">.00</span>
+                    </div>
+
+                    <button id="update_budget">
+                        Update budget
+                    </button>
+                </form>
+            </section>
+
+            <section id="add_expense_section">
+                <h1>
+                    Add Expense
+                </h1>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="name_input" placeholder="Expense name" />
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" id="amount_input" placeholder="Expense amount" />
+                        <span class="input-group-text">.00</span>
+                    </div>
+                    <button id="add_expense">
+                        Add expense
+                    </button>
+                </form>
+            </section>
+
+            <section id="expense_list_section">
+                <h1>
+                    Monthly Expenses
+                </h1>
+                <div id="expense_list">
+
+                </div>
+            </section>
+
+            <section id="expense_total_section">
+                <h1>
+                    Total Expenses
+                </h1>
+                <p id="total_expenses">
+
+                </p>
+            </section>
+
+            <section id="remaining_balance_section">
+                <h1>
+                    Remaining Balance
+                </h1>
+                <p id="remaining_balance">
+
+                </p>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

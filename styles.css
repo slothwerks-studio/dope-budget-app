@@ -1,0 +1,64 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: mediumpurple;
+}
+
+main {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 1.75em;
+    /* margin-bottom: 0; */
+    margin-bottom: 30px;
+}
+
+/* input {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+} */
+
+input {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: slateblue;
+    color: white;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 1em;
+    margin: 10px;
+}
+
+button:hover {
+    color: slateblue;
+    background-color: white;
+}
+
+.remove_expense {
+    padding: 5px;
+}
+
+.red {
+    color: orangered;
+}
+
+.green {
+    color: greenyellow;
+}
